@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+.pytest_cache/
+venv/
+env/
+.venv/
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+.env
+.env.*
+!.env.example  # если есть пример .env файла
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Базы данных (если используете SQLite)
+*.db
+*.sqlite
+
+# Директории сборки
+dist/
+build/
