@@ -1,4 +1,5 @@
 import os
+
 from telegram.ext import Application
 from dotenv import load_dotenv
 from database.db import init_db
