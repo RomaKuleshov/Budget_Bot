@@ -46,24 +46,24 @@ DATABASE_URL=postgresql://username:password@localhost:5432/dbname
 ## Installation
 
 1. Clone the repository:
-```bash
+```sh
 git clone https://github.com/yourusername/Budget_Bot.git
 cd Budget_Bot
 ```
 
 2. Create and activate a virtual environment:
-```bash
+```sh
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies:
-```bash
+```sh
 pip install -r requirements.txt
 ```
 
 4. Set up the database:
-```bash
+```sh
 # Create necessary tables and initial data
 python setup_database.py
 ```
@@ -71,7 +71,7 @@ python setup_database.py
 ## Running the Bot
 
 1. Start the bot:
-```bash
+```sh
 python main.py
 ```
 
